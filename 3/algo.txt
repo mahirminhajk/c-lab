@@ -1,0 +1,16 @@
+step:
+    1. start
+    2. read row
+    3. i  = 1
+    4. i <= row then go to step 5 otherwise go to step 15
+    5. j = 1
+    6. j <= (n-1) then go to step 7 other wise go to step 9
+    7. print(" ");
+    8. j++  and go to step 6
+    9. k = 1
+    10. k <= ((2 * i) - 1) then go to step 11 otherwise go to step 15
+    11. printf("*");
+    12. k++ and go to step 10
+    13. print("\n");
+    14. i ++ and go to step 4
+    15. stop

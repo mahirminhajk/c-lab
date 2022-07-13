@@ -5,7 +5,7 @@ void main()
     char s[100];
     int count = 0, i;
 
-    printf("Enter the string:\n");
+    printf("Enter the sentence:\n");
     gets(s);
 
     for (i = 0; s[i] != '\0'; i++) // \0 is array last iteam

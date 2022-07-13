@@ -1,0 +1,12 @@
+step:
+    1. start
+    2. read limit
+    3. set n1 =0, n2 = 0, nd = n1 + n2;
+    4. if limit > 1 then print n1, n2, nd
+    5. n1 = n2
+    6. n2  = nd
+    7. nd = n1 + n2
+    8. if nd < limit then
+    9.  print nd
+    10.  go to step 5
+    11. stop

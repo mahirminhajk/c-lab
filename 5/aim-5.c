@@ -9,7 +9,6 @@ void main()
     if (n <= 1)
     {
         isPrime = 0;
-        printf("%d\n", isPrime);
     }
     else
     {

@@ -2,8 +2,10 @@
 
 void main()
 {
-    int i, j, n = 5;
-
+    int i, j, n;
+    // clrscr();
+    printf("Enter the number of the row:");
+    scanf("%d", &n);
     for (i = 1; i <= n; i++) // run 6 times
     {
         // space print
@@ -18,4 +20,5 @@ void main()
         }
         printf("\n");
     }
+    // getch();
 }
