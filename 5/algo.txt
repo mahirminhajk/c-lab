@@ -1,0 +1,15 @@
+step:
+1. start
+2. read a number
+3. set isPrime = 1
+4. if n <= 1 then go to step 5. otherwise go to step 6
+5. isPrime = 0
+6. i = 2
+7. if i <= (n/2) then go to step 8. otherwise go to step 11 
+8. if n% i == 0 then go to step 9 otherwise go to step 10
+9. isPrime = 0
+10. i++ and go to step 7
+11. if isPrime == 1 then go to step 12 otherwise 13
+12. Print number is prime
+13. print number is not prime
+14. stop

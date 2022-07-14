@@ -1,0 +1,20 @@
+step:
+1. start
+2. read row and col
+3. using scanf and for loop take the value from the user
+4. using for loop and printf print the value of the matrix
+5. i = 0
+6. if i < row then go to step 7 , otherwise go to step 12
+7. j = 0
+8. if j< col then go to step 9, other wise go to step 11
+9.  AT[j][i] = A[i][j];
+10. j++ and go to step 8 
+11. i ++ and go to step 6
+12. i = 0 
+13. if i < col then go to step 14, otherwise go to step 19
+14. j = 0
+15. if j< row then go to step 16, otherwise go to step 18
+16. printf("%d",AT[i][j]
+17. j++ and go to step 15
+18. i ++ and go to step 13
+19. stop
