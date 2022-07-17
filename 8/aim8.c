@@ -6,6 +6,7 @@ int main()
 
     printf("Enter a number: ");
     scanf("%d", &n);
+    printf("pattern: \n");
     for (i = 10; i < n; i *= 10)
         ;
 

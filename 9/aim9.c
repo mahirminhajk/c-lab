@@ -6,6 +6,8 @@ void main()
     int i, flag = 1;
     printf("Enter a string : ");
     gets(str);
+    printf("short form: ");
+
     for (i = 0; str[i] != '\0'; i++)
     {
         if (flag)

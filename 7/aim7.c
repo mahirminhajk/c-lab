@@ -9,7 +9,7 @@ void main()
     printf("Enter the number value: ");
     scanf("%d", &n);
     double res = series(n);
-    printf("%.4f", res);
+    printf("answer: %.4f", res);
 }
 
 double series(int n)
