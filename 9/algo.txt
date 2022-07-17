@@ -1,0 +1,12 @@
+step:
+1. start
+2. read a string
+3. set flag = 1
+4. i = 0
+5. if string[i] != '\0' then go to step 6, other wise go to step 11
+6. if flag = 1 then go to step 6 , otherwise go to step 8
+7. print string[i] ang flag = 0
+8. if string[i] == '  ' then go to step 9, other wise go to step 10
+9. flag = 1
+10. i++ and go to step 5
+11. stop
