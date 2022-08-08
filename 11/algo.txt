@@ -1,0 +1,15 @@
+step:
+1. start
+2. read a range starting number as strnum, range last number as endnum
+3. set num = strnum
+4. if num <= endnum then go to step 5, other wise go to step 14
+5. temp = num, sum = 0
+6.   if temp != 0 then go to step 7, other wise go to step 11
+7.    r = temp % 10;
+8.    temp = temp / 10;
+9.    sum = sum + (r * r * r)
+10.   if temp != 0 then go to step 6, other wise go to step 11
+11. if sum == num then goto step 12, other wise go to step 13
+12. num is Armstrong number
+13. num++ then goto step 4
+14. stop

@@ -1,0 +1,9 @@
+step
+1. start
+2. read interger as n
+//create a function as multiplyNumber(int n)
+3. if n >= 1 then goto step 4, otherwise go to step 5
+4. return n * multiplyNumber(n - 1)
+5. return 1
+6. print Factorial n = multiplyNumber(n)
+7. stop
