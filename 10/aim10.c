@@ -20,8 +20,7 @@ void main()
         if (notes)
         {
             amount = amount % moneys[i]; // remaining money
-            printf("%d * %d\n", notes, moneys[i]);
+            printf("%d * %d\n", notes, moneys[i], notes * moneys[i]);
         }
     }
-    // getch();
 }
