@@ -1,38 +1,38 @@
-/*Armstrong number
- *0, 1, 153, 370, 407....
- *0^1 = 0
- *1^1 = 1
- *1^3+5^3+3^3= 153
- *4^3+0^3+7^3=407
- */
 #include <stdio.h>
+#include <math.h>
 
 void main()
 {
-    int num, r, sum, temp;
-    int strnum, endnum;
+    int stanum, endnum, i, d = 0, temp = 0, rem = 0, sum = 0;
 
-    printf("Enter starting num of range: ");
-    scanf("%d", &strnum);
-    printf("Enter ending num of range: ");
+    printf("Enter staring interger of the range: ");
+    scanf("%d", &stanum);
+    printf("\nEnter ending interger of the range: ");
     scanf("%d", &endnum);
 
-    printf("Armstrong numbers in given range are: ");
-    for (num = strnum; num <= endnum; num++)
+    printf("\nArmstrong numbers in given range is: ");
+    for (i = stanum; i <= endnum; i++)
     {
-        temp = num;
-        sum = 0;
-
-        while (temp != 0)
+        temp = i;
+        while (temp)
         {
-            r = temp % 10;
+            temp /= 10;
+            ++d;
+        }
+        temp = i;
+        while (temp > 0)
+        {
+            rem = temp % 10;
+            sum = sum + pow(rem, d);
             temp = temp / 10;
-            sum = sum + (r * r * r);
         }
-        if (sum == num)
+
+        if (sum == i)
         {
-            printf("%d ", num);
+            printf("%d, ", i);
         }
+        sum = 0;
+        d = 0;
+        rem = 0;
     }
-    printf("\n");
 }
