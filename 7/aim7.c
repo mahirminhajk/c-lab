@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> //cc -o sphere sphere.c -lm
 
 double series(int n);
 
@@ -9,7 +9,7 @@ void main()
     printf("Enter the number value: ");
     scanf("%d", &n);
     double res = series(n);
-    printf("answer: %.4f", res);
+    printf("answer: %.5f", res);
 }
 
 double series(int n)

@@ -1,16 +1,19 @@
 #include <stdio.h>
+//#include <stdlib.h>
+//#include <conio.h>
 
 void main()
 {
-    int amount, notes;
+    int amount, notes, i;
     int moneys[10] = {2000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    // clrscr();
 
     printf("Enter amount: ");
     scanf("%d", &amount);
 
     printf("\n");
 
-    for (int i = 0; i < 10; i++)
+    for (i = 0; i < 10; i++)
     {
         notes = amount / moneys[i];
 
@@ -20,4 +23,5 @@ void main()
             printf("%d * %d\n", notes, moneys[i]);
         }
     }
+    // getch();
 }
