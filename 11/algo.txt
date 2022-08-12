@@ -1,13 +1,16 @@
 step:
 1. start
-2. 
-4. 
-5. 
-6.   
-8.    
-9.   
-10.
-11. 
-12. 
-13.
-14. 
+2. read staring number as(stanum) and ending number as(endnum) of the range
+3. i = stanum
+4. if i <= endnum then goto step 5, otherwise goto step 15
+5. set temp = i
+6. if temp != 0 then goto step 7, otherwise goto step 8
+7. temp = temp / 10, d = d + 1; and go to step 6
+8. set temp = i
+9. if temp > 0 then goto step 10, otherwise goto step 12 
+10. rem = temp % 10, sum = sum + rem^d, temp = temp /10 
+11. go to step 9
+12. if sum == i then i is a Armstrong number and print it, If end
+13. set sum = 0, d = 0, rem = 0
+14. i = i + 1 and go to step 5
+15.stop

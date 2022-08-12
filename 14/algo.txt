@@ -1,0 +1,7 @@
+1.start
+2.read year 
+3.if year % 4 == 0 then goto step 4, other wise goto step 6
+4.if year % 400 or year % 100 != 0 then go to step 5. otherwise goto 6 step
+5.this year is leap year
+6.this not a leap year
+7.stop 
