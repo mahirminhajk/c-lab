@@ -36,7 +36,7 @@ ___________________________________________________________________💚KMDEV💚
 17.Merge two numeric arrays in sorted order.
 18.Fill upper triangle with 1, lower triangle with -1 and diagonal elements with 0.
                                    
-                                    [1]:"https://www.instagram.com/km_developer_/?igshid=YmMyMTA2M2Y="  "Instagram"
+                                    <a href="https://www.google.com/" target="_blank">Google</a>
           
 ## thinks you should know
      ### - all code here writen by kmdev.
