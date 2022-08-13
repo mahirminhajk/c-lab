@@ -1,7 +1,6 @@
 ___________________________________________________________________💚KMDEV💚_____________________________________________________________________________
 # 2th-sem c lab (BCA)
 ## question list  
-      # By KMDEV
  ## thinks you should know
      ### - all code here writen by kmdev.
      ### - you can use this code.
@@ -28,7 +27,7 @@ ___________________________________________________________________💚KMDEV💚
                                               7 4
                                               4
 9. Display the short form of a string. E.g. Computer Science : CS
-10.Find the currency denomination of a given amount.
+10. Find the currency denomination of a given amount.
 11.Find the Armstrong numbers within a given range.
 12.Find the factorial of a number using recursion
 13.Check for palindrome string.
