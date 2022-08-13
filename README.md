@@ -3,8 +3,10 @@ ___________________________________________________________________💚KMDEV💚
 ## question list  
  
 ## where did i got the code
-  ### - the all code here is taken from google and edited by me
-  ### - for my better understaning 
+  - the all code here is taken from google and edited by me
+  - for my better understaning 
+  - algorithm is written by my own language
+  - FELL FREE TO EDIT 
 
 
 ## question list
@@ -25,14 +27,16 @@ ___________________________________________________________________💚KMDEV💚
                                               4
 9.Display the short form of a string. E.g. Computer Science : CS
 10.Find the currency denomination of a given amount.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
+11.Find the Armstrong numbers within a given range.
+12.Find the factorial of a number using recursion
+13.Check for palindrome string.
+14.Check for leap year.
+15.Write odd and even numbers into separate files.
+16.Base conversion of numbers.
+17.Merge two numeric arrays in sorted order.
+18.Fill upper triangle with 1, lower triangle with -1 and diagonal elements with 0.
+
+          <a href="[https://instgram.com](https://www.instagram.com/km_developer_/?igshid=YmMyMTA2M2Y)"><b>Fell Free to Message Me In Instagram</a>
 
 ## thinks you should know
      ### - all code here writen by kmdev.
