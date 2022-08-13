@@ -1,0 +1,9 @@
+1.start
+2.read limit 
+3.open file odd.txt and even.txt using fopen()
+4.set i = 1
+5.if i <= limit then go to step 6, otherwise go to step 9
+6. if i % 2 == 0 then go to step 7, otherwise got to step 8
+7. write i into even.txt using fprintf()
+8. write i into odd.txt using fprintf()
+9.stop

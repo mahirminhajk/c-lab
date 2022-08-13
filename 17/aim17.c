@@ -50,6 +50,4 @@ void main()
     {
         printf("%d\t", c[i]);
     }
-
-    printf("\nProgram exited\n");
 }

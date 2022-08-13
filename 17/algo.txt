@@ -1,0 +1,22 @@
+1.star
+2.read then length/size of the first array as l1 and second array l2
+3.set lf = l1 + l2 (the size of the merged array)
+4.set i = 0
+5.if i < l1 then goto step 6, otherwise goto step 8
+6. using scanf() and a[i] take the user input for first array and set c[i] = b[i]
+7. set i++ goto step 5
+8.set k = l1;
+9.set i = 0;
+10.if i < l2 then goto step 11, otherwise goto step 13
+11.using scanf() and b[i] take the user input for second array and set c[k] = b[i], k++
+12.i++ then go to step 10
+//we use Bubble sort algorithm for sorting
+13.set i = 0
+14.if i < lf then goto step 15, otherwise goto step 21
+15. set j = 0
+16. if j < lf - i then goto step 17, otherwise goto step 14
+17. if c[j] > c[j+1] then go to step 18, otherwise goto step 16
+18. set temp = c[j], c[j] = c[j + 1], c[j + 1] =temp;
+19. set j++ and goto step 17
+20. set i++ and goto step 16
+21. stop
