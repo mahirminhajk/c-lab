@@ -1,4 +1,4 @@
-___________________________________________________________________💚KMDEV💚_____________________________________________________________________________
+___________________________________________________________________💚KMDEV(mahir minhaj K💚_____________________________________________________________
 # 2th-sem c lab (BCA)
 ## question list  
  
@@ -36,14 +36,16 @@ ___________________________________________________________________💚KMDEV💚
 17.Merge two numeric arrays in sorted order.
 18.Fill upper triangle with 1, lower triangle with -1 and diagonal elements with 0.
                                    
-                                    <a href="https://www.google.com/" target="_blank">Google</a>
+                                    Fell Free to message Me 
           
 ## thinks you should know
-     ### - all code here writen by kmdev.
-     ### - you can use this code.
-     ### - please make sure you understand the concept & how it work
-                                                                               
+     > all code here writen by kmdev.
+     > you can use this code.
+     > please make sure you understand the concept & how it work
+                                                            
+                                                            
+   Message here: [instgram](https://instagram.com/km_developer/).
+       
+   
                     
-                    
-                    
-___________________________________________________________________💚KMDEV💚_____________________________________________________________________________
+___________________________________________________________________💚KMDEV(mahir minhaj K💚_____________________________________________________________
