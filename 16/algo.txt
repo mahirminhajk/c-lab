@@ -1,0 +1,12 @@
+1.start
+2.read a number as number
+3.set i = 0
+4.if n > 0 then go to step 5, otherwise goto step 7
+5.a[i] = n%2, n = n/2;
+6. i++ then goto step 4
+//now print the binary from array a in reserve order
+7.i = i - 1
+8.if i >= 0 then goto step 9, otherwise go to step 11
+9.pirntf a[i]
+10. set i-- goto step 8
+11.stop
