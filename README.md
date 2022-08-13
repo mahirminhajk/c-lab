@@ -1,14 +1,14 @@
 ___________________________________________________________________💚KMDEV💚_____________________________________________________________________________
 # 2th-sem c lab (BCA)
 ## question list  
-                                                                    # By KMDEV
-                                                               ## thinks you should know
-                                                                   ### - all code here writen by kmdev.
-                                                                   ### - you can use this code.
-                                                                   ### - please make sure you understand the concept & how it work
-                                                              ## where did i got the code
-                                                                ### - the all code here is taken from google and edited by me
-                                                                ### - for my better understaning 
+      # By KMDEV
+ ## thinks you should know
+     ### - all code here writen by kmdev.
+     ### - you can use this code.
+     ### - please make sure you understand the concept & how it work
+## where did i got the code
+  ### - the all code here is taken from google and edited by me
+  ### - for my better understaning 
 
 
 ## question list
