@@ -35,9 +35,9 @@ ___________________________________________________________________💚KMDEV💚
 16.Base conversion of numbers.
 17.Merge two numeric arrays in sorted order.
 18.Fill upper triangle with 1, lower triangle with -1 and diagonal elements with 0.
-
-          <a href="[https://instgram.com](https://www.instagram.com/km_developer_/?igshid=YmMyMTA2M2Y)"><b>Fell Free to Message Me In Instagram</a>
-
+                                   
+                                    [1]:"https://www.instagram.com/km_developer_/?igshid=YmMyMTA2M2Y="  "Instagram"
+          
 ## thinks you should know
      ### - all code here writen by kmdev.
      ### - you can use this code.
