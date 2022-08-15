@@ -25,15 +25,25 @@ ___________________________________________________________________💚KMDEV(mah
                                               1 7 4
                                               7 4
                                               4
+                                              
 9.Display the short form of a string. E.g. Computer Science : CS
+
 10.Find the currency denomination of a given amount.
+
 11.Find the Armstrong numbers within a given range.
+
 12.Find the factorial of a number using recursion
+
 13.Check for palindrome string.
+
 14.Check for leap year.
+
 15.Write odd and even numbers into separate files.
+
 16.Base conversion of numbers.
+
 17.Merge two numeric arrays in sorted order.
+
 18.Fill upper triangle with 1, lower triangle with -1 and diagonal elements with 0.
                                    
                                     Fell Free to message Me 
