@@ -1,7 +1,7 @@
 1.start
 2.read a word as str
 3.set s0 = 0, sn = (length of the str - 1)
-4.if s0 < sn then goto step 5, otherwise goto step
+4.if s0 < sn then goto step 5, otherwise goto step 8
 5.  if str[s0] != str[sn] then goto step 6, otherwise goto step 9.
 6.   this string is not palindrome
 7.   set s0 = s0 + 1, sn = sn -1; then got to step 5
