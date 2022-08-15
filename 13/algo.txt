@@ -5,5 +5,5 @@
 5.  if str[s0] != str[sn] then goto step 6, otherwise goto step 9.
 6.   this string is not palindrome
 7.   set s0 = s0 + 1, sn = sn -1; then got to step 5
-8.   this srring is a palindrome, if the code reached here that mean the str is palindrome
+8.   this string is a palindrome, if the code reached here that mean the str is palindrome
 9. stop
