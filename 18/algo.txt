@@ -3,13 +3,13 @@
 3.set i = 0
 4.if i <row then goto step 5, otherwise goto step 14 
 5. set j = 0
-6. if j < column then goto step 7, otherwise goto step 4
+6. if j < column then goto step 7, otherwise goto step 13
 7. if i<j then go to step 8, otherwise goto step 9
 8. set a[i][j] = 1
 9. if i > j then go to step 10, otherwise goto step 11
 10. set a[i][j] = -1
 11. else: a[i][j] = 0
-12. set j++ and to step 6
-13. set i++ and to step 4
+12. set j++ and go to step 6
+13. set i++ and go to step 4
 14. print the matrix
 15.stop
