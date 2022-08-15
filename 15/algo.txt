@@ -7,4 +7,4 @@
 7. write i into even.txt using fprintf() and goto step 9
 8. write i into odd.txt using fprintf()
 9.i++ and go to step 5
-9.stop
+10.stop
