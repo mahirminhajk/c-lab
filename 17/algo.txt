@@ -1,6 +1,6 @@
-1.star
-2.read then length/size of the first array as l1 and second array l2
-3.set lf = l1 + l2 (the size of the merged array)
+1.start
+2.read the length/size of the first array as l1 and second array as l2
+3.set lf = l1 + l2 (the size of the new merged array)
 4.set i = 0
 5.if i < l1 then goto step 6, otherwise goto step 8
 6. using scanf() and a[i] take the user input for first array and set c[i] = b[i]
