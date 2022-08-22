@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int multiplyNumber(int n);
+long int multiplyNumber(int n);
 void main()
 {
     int n;
     printf("Enter a positive interger: ");
     scanf("%d", &n);
-    printf("Factorial of %d = %d\n", n, multiplyNumber(n));
+    printf("Factorial of %d = %ld\n", n, multiplyNumber(n));
 }
-int multiplyNumber(int n)
+long int multiplyNumber(int n)
 {
     if (n >= 1)
     {
