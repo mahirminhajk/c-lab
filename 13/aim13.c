@@ -5,7 +5,7 @@ void checkStr(char str[]);
 
 void main()
 {
-    char str[100];
+    char str[50];
 
     printf("Enter the word: ");
     scanf("%s", &str);
