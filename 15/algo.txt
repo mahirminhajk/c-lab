@@ -11,3 +11,4 @@
 11. if number != EOF(end of file) then go to step 12, otherwise goto step 13
 12. printf(number);
 13.stop
+
