@@ -1,9 +1,13 @@
 1.start
-2.read limit 
-3.open file odd.txt and even.txt using fopen()
-4.set i = 1
-5.if i <= limit then go to step 6, otherwise go to step 9
-6. if i % 2 == 0 then go to step 7, otherwise got to step 8
-7. write i into even.txt using fprintf()
-8. write i into odd.txt using fprintf()
-9.stop
+2. read the contents of datat file (number) using for each loop and if -1 is entered exit from the foreach loop
+3.open Data file in format of read, ODD and EVEN file in format of write using fopen()
+4.number = getw(f1)
+5.if number != EOF(end of file) then got to step 6, otherwise goto step 7
+6. if number % 2 == 0 then write into f3 file otherwise write into f2 file using putw() and goto step 5
+7. close the three file using fclose()
+8.reopen f2 and f3 in format of read using fopen();
+9.printing the contents of f1 and f2 file using while loop
+10. set number = getw(f2)-> after f2 then f3 
+11. if number != EOF(end of file) then go to step 12, otherwise goto step 13
+12. printf(number);
+13.stop
