@@ -1,0 +1,7 @@
+1.start
+2.read limit, a number
+3.set i = 1
+4.if i <= limit then goto step 5, otherwise goto step 7 
+5. print i * number
+6. i++ and got to step 4
+7. stop
