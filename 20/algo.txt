@@ -1,0 +1,15 @@
+1.start
+2.read a 2d array(matrix) a[10][10],b[10][10] and ans[10][10], row, column
+3.read element into a and b matrix(array) and set i = 0
+4.if i < row then goto step 5, otherwise goto step 14
+5. set j = 0
+6. if j < column then goto step 7, otherwise goto step 13
+7. set ans[i][j] = 0
+8. set k = 0
+9. if k < c then go to step 10, otherwise goto step 12
+10. ans[i][j] = ans[i][j] + (a[i][k] * b[k][j])
+11. k++ and and goto step 9
+12. set j++ and go to step 6
+13. set i++ and go to step 4
+14. print the ans array
+15.stop
